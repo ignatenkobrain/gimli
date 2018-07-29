@@ -1,4 +1,4 @@
-[package]
+""[package]
 authors = ["Nick Fitzgerald <fitzgen@gmail.com>", "Philip Craig <philipjcraig@gmail.com>"]
 categories = ["development-tools::debugging", "development-tools::profiling", "parser-implementations"]
 description = "A blazing fast DWARF debugging format parser."
@@ -9,6 +9,7 @@ name = "gimli"
 readme = "./README.md"
 repository = "https://github.com/gimli-rs/gimli"
 version = "0.16.0"
+exclude = ["/ci/*", "/releases/*", "/.travis.yml", "/coverage", "/format"]
 
 [badges]
 travis-ci = { repository = "gimli-rs/gimli" }
